@@ -1,0 +1,216 @@
+.doctor {
+  width: 95%;
+  background-color: white;
+  margin: 24px;
+  position: relative;
+  display: flex;
+  border-radius: 10px;
+}
+.image {
+  width: 35%;
+  padding: 2px;
+}
+.img {
+  width: 100%;
+}
+.imgIcon {
+  position: absolute;
+  top: 5%;
+  left: 1%;
+  display: flex;
+  gap: 6rem;
+  align-items: center;
+}
+
+.imgIcon p {
+  border-radius: 4px;
+  padding: 8px 8px;
+  background: linear-gradient(
+    84deg,
+    #fcfcfd 36.52%,
+    rgba(252, 252, 253, 0.83) 98.8%
+  );
+  color: #23262f;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.imgIcon img {
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.doctorContainer {
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.doctorsName {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name {
+  color: #141416;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.experienceYear {
+  color: #353945;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.experienceYear span {
+  padding: 8px 12px;
+  margin-left: 0.5rem;
+  border-radius: 8px;
+  background: #58c27d;
+  color: #fcfcfd;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.position p {
+  color: #141416;
+  font-family: Poppins;
+  padding: 5px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+.position {
+  width: 150px;
+  border-radius: 8px;
+  background: #ffd166;
+  padding: 0 5px;
+  margin-left: 2rem;
+  margin-top: -1rem;
+}
+.city {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: 2rem;
+}
+
+.city p {
+  color: #3b71fe;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.info {
+  /* background-color: #3b71fe; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.infoLeft {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.star {
+  color: #23262f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.rewiews {
+  color: #777e90;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.detailsButton {
+  padding: 0 14px;
+  border-radius: 90px;
+  border: 2px solid #3b71fe;
+  cursor: pointer;
+}
+
+.detailsButton p {
+  color: #3b71fe;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+@media (max-width: 500px) and (min-width: 300px) {
+  .doctor {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .doctorContainer {
+    flex-wrap: wrap;
+  }
+
+  .doctorName {
+    display: flex;
+  }
+
+  .experienceYear {
+    width: 80%;
+    text-align: left;
+  }
+
+  .image{
+    width:100%;
+  }
+  .imgIcon{
+margin-left: 3rem;
+gap: 8rem;
+  }
+
+  .info{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+}

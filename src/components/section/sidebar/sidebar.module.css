@@ -1,0 +1,15 @@
+.sidebarContainer{
+    width: 30%;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+   /* background-color: red; */
+}
+
+
+@media (max-width:500px) and (min-width:300px){
+
+    .sidebarContainer{
+        display: none;
+    }
+
+}

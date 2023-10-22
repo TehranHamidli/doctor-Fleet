@@ -1,0 +1,47 @@
+.categoriesContainer {
+  border-top: 1px solid #e6e8ec;
+  margin-top: 1rem;
+}
+
+.categoriesContainer .categoriesName p {
+  color: #23262f;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.category {
+  margin-bottom: 0.5rem;
+}
+
+.category span {
+  color: #141416;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 12px;
+}
+
+.subCategory {
+  margin-left: 1rem;
+}
+
+.subCategory span {
+  color: #141416;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 0.5rem;
+}
+
+.border {
+  width: 80%;
+  border-bottom: 1px solid #e6e8ec;
+  margin: 1rem;
+}

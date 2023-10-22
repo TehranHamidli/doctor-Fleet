@@ -1,0 +1,27 @@
+
+.rateContainer{
+    width: 80%;
+    margin-top: 2rem;
+    border-top: 1px solid #E6E8EC;
+}
+
+.rateContainer .rateName p {
+  color: #23262f;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.star{
+    width: 60%;
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.star span{
+    display: flex;
+    gap: 8px;
+}

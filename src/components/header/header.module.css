@@ -1,0 +1,104 @@
+.header {
+  /* background-color:darkcyan; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.menuItems {
+  /* background-color: rgb(60, 255, 0); */
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navLink {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navLink a {
+  text-decoration: none;
+  color: var(--neutrals-4, #777e90);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.headerRight {
+  /* background-color: blueviolet; */
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: #777e90;
+  cursor: pointer;
+}
+
+.listDoctor p {
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 90px;
+  border: 2px solid var(--neutrals-6, #e6e8ec);
+  color: #23262f;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  cursor: pointer;
+}
+
+.notification {
+  cursor: pointer;
+}
+
+.user {
+  cursor: pointer;
+}
+
+.mobileMenu {
+  display: none;
+}
+@media  (max-width: 500px) and (min-width: 300px){
+  .header {
+    display: none;
+  }
+  .mobileMenu {
+
+    width:400px;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 1.5rem;
+
+  }
+
+  .menuIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}

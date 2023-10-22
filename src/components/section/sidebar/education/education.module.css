@@ -1,0 +1,27 @@
+.educationContainer {
+  /* background-color: coral; */
+}
+
+.educationName p {
+  color: #23262f;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.educationCheckbox span {
+  color: #141416;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 12px;
+}
+.checkBox{
+    margin-bottom: 0.5rem;
+    
+}
+

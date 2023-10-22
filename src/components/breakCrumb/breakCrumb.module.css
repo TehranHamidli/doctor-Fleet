@@ -1,0 +1,14 @@
+.breakCrumbContainer {
+  width:100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-around;
+  gap: 15rem;
+  align-items: center;
+}
+
+@media (max-width:500px){
+  .breakCrumbContainer{
+    display: none;
+  }
+}
