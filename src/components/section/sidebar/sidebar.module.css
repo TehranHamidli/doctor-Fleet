@@ -1,7 +1,10 @@
 .sidebarContainer{
-    width: 30%;
-    padding-left: 3rem;
+    width: 40%;
+    padding-left: 6rem;
     padding-bottom: 2rem;
+    margin: 0 auto;
+    
+
    /* background-color: red; */
 }
 

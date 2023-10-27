@@ -1,20 +1,22 @@
 .goHomeButton {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 10%;
+  width: 122px;
+  height: 40px;
   border-radius: 90px;
   border: 2px solid var(--neutrals-6, #e6e8ec);
   cursor: pointer;
   color: var(--neutrals-2, #23262f);
-  font-family: Sans-serif;
+  font-family: DM Sans;
   font-size: 1rem;
   background-color: white;
   font-weight: 700;
-  padding: 0 1.5rem;
+  padding: 5px 24px;
   gap: 0.5rem;
 }
 
-.leftIcon{
-  width:23% ;
+.leftIcon {
+  width: 16px;
+  height: 16px;
 }

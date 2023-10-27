@@ -9,21 +9,23 @@ function Price() {
           <p>Price</p>
         </div>
 
-        <div className={price.select}>
-          <div className={price.min}>
-            <p>Min</p>
-            <div className={price.priceMin}>
-              <p>1</p>
-              <Image src={arrowBottom} className={price.arrowBottom} />
-            </div>
+        <div className={price.selectContainer}>
+          <div>
+            <div className={price.min}>Min</div>
+            <select className={price.select}>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
           </div>
 
-          <div className={price.max}>
-            <p>Max</p>
-            <div className={price.priceMax}>
-              <p>3000</p>
-              <Image src={arrowBottom} className={price.arrowBottom} />
-            </div>
+          <div>
+            <div className={price.max}>Max</div>
+            <select className={price.select}>
+              <option>3000</option>
+              <option>2000</option>
+              <option>1000</option>
+            </select>
           </div>
         </div>
       </div>

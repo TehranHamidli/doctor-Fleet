@@ -8,8 +8,6 @@ function Section() {
     <div className={section.sectionContainer}>
     <Sidebar />
     <DoctorContent />
-    
-    
     </div>
   )
 }

@@ -1,7 +1,13 @@
-.sectionContainer{
-    /* background-color: chartreuse; */
-    display: flex;
-    justify-content: center;
-   
+.sectionContainer {
+  /* background-color: chartreuse; */
+  /* padding-left: 30px; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
+@media (max-width: 500px) and (min-width: 300px) {
+  .sectionContainer {
+    padding-left: 0;
+  }
+}

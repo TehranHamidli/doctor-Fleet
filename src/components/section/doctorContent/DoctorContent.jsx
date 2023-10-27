@@ -5,8 +5,7 @@ function DoctorContent() {
   return (
     <div className={doctorContent.contentContainer}>
       <Doctor />
-      <Doctor />
-      <Doctor />
+  
     </div>
   );
 }

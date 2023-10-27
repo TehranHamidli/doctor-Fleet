@@ -1,0 +1,46 @@
+.selectContainer {
+  /* background-color: red; */
+  display: flex;
+  width: 256px;
+  height: 48px;
+  padding: 8px 8px 8px 16px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid var(--neutrals-6, #e6e8ec);
+  appearance: none;
+  color: var(--neutrals-2, #23262f);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  
+}
+
+
+
+.selectContainer:focus {
+  outline: none;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 24px; */
+}
+
+.arrowBottom {
+  border: 1px solid black;
+  border-left: none;
+
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+  padding: 5px;
+  border: 2px solid var(--neutrals-6, #e6e8ec);
+  border-radius: 50%;
+  cursor: pointer;
+}
+

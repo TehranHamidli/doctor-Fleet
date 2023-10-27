@@ -1,15 +1,8 @@
 .countriesContainer {
   width: 80%;
   border-top:1px solid var(--neutrals-6, #E6E8EC);
-  /* background-color: blue; */
+  font-family: Poppins;
 
-}
-
-
-.arrowBottom {
-  border-radius: 50%;
-  border: 2px solid #c1c3cc;
-  padding: 5px;
 }
 
 .countriesName {
@@ -21,30 +14,7 @@
   line-height: 32px;
 }
 
-.countriesFilter {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 12px;
-  border: 1px solid var(--neutrals-6, #e6e8ec);
-  margin-bottom: 1.5rem;
-  padding: 0 1rem;
-}
 
-.countriesFilter p {
-  color: var(--neutrals-2, #23262f);
-  font-family: Poppins;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
+.countrysFilter{
+  margin-bottom: 24px;
 }
-
-.cityFilter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 12px;
-    border: 1px solid var(--neutrals-6, #e6e8ec);
-    padding: 0 1rem;
-  }

@@ -1,3 +1,4 @@
+
 .header {
   /* background-color:darkcyan; */
   width: 100%;
@@ -5,8 +6,28 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 1rem;
+  font-family: DM Sans;
+}
+.numune{
+  /* background-color: darkblue; */
+  border: none;
+  appearance: none;
+/* width: 100px; */
+/* display: flex; */
+/* justify-content: center; */
+align-items: center;
+/* gap: 12px; */
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 700;
+color: #777e90;
+cursor: pointer;
+
 }
 
+.numune:focus{
+outline: none;
+}
 .menuItems {
   /* background-color: rgb(60, 255, 0); */
   width: 50%;
@@ -24,7 +45,7 @@
   text-decoration: none;
   color: var(--neutrals-4, #777e90);
   text-align: center;
-  font-family: sans-serif;
+  font-family: DM Sans;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -39,8 +60,9 @@
 }
 
 .language {
+  /* background-color: chartreuse; */
   display: flex;
-  padding: 12px 16px;
+  padding: 12px 10px;
   justify-content: center;
   align-items: center;
   gap: 12px;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import filters from "./filters.module.css";
-import arrowRight from "/src/images/Line.png";
-
+import CountriesFilter from "../section/sidebar/countries/countriesFilter/CountriesFilter";
+import {numbers} from '/src/data';
 function Filters() {
   return (
     <>
@@ -18,8 +18,7 @@ function Filters() {
         </div>
 
         <div className={filters.sortFilter}>
-          <p>Sorty By</p>
-          <Image src={arrowRight} className={filters.arrowBottom} />
+        <CountriesFilter data={numbers} />
         </div>
       </div>
     </>

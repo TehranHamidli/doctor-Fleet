@@ -43,8 +43,14 @@ function Header() {
         <div className={styles.headerRight}>
           <div className={styles.language}>
             <Image src={globus} />
-            <p>Language</p>
+            {/* <p>Language</p> */}
+            <select className={styles.numune} name="" id="">
+              <option value="">Language</option>
+              <option value="">Turk</option>
+              <option value="">Az</option>
+            </select>
           </div>
+
           <div className={styles.listDoctor}>
             <p>List Doctor</p>
           </div>
